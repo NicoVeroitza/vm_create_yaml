@@ -8,18 +8,18 @@ pool:
   vmImage: "ubuntu-latest"
 
 variables:
-  azureSubscription: "Grupo06-PipelineConnection-IaC"
+  azureSubscription: "sub_sumativa_2"
   location: "eastus2"
-  resourceGroupName: "RG2-Grupo06Devops001A"
+  resourceGroupName: "resgroup_grupo6"
   virtualNetworkName: "Grupo06RedVirtual-Devops001A"
   subnetName: "subnet-grupo06"
   addressPrefix: "10.0.0.0/24"
   subnetPrefix: "10.0.0.0/26"
   securityGroupName: "Grupo06NetworkSecurityGroup-Devops001A"
   publicIpName: "PublicIP-2-taller-DevOps"
-  vmName: "VM-2-taller-DevOps"
+  vmName: "VM-2-taller-DevOps_2"
   vmSize: "Standard_B1s"
-  adminUsername: "vm1-grupo6-user"
+  adminUsername: "azureuser"
   adminPassword: "Password1234$!!"
   environment: Grupo06-Environment
 
